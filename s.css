@@ -9,6 +9,9 @@ body{
      
     }
 .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
       width: 400px;
       height: 400px;
@@ -31,10 +34,10 @@ body{
     position: relative; 
 }
 .information{
-    overflow: hidden;
     transition-duration: 1s;
      height: 0;
      width: 0;
+     
      border-radius: 50%;
     border-radius: 10px;
     background-color: rgb(255, 64, 0);
@@ -55,7 +58,7 @@ body{
     color: white;
     display: none;
     position: relative;
-    bottom: 90px;
+    bottom: 40px;
 
 }
 h2{font-style: italic;}
@@ -84,6 +87,7 @@ a:hover {
   background-color: red;
   height: 300px;
   width: auto;
+
 border-radius: 50px 50px 50px 50px;
   
 }
@@ -91,8 +95,8 @@ border-radius: 50px 50px 50px 50px;
 .content:hover .information{
   width: 400px;
   height: 400px;
-   
-
+   background-color: red;
+   top: 100px;
 }
 
 .information:hover .image{
