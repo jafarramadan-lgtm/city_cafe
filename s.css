@@ -290,7 +290,7 @@ position: relative;
   left:0px;
 }
 
-100%{left: 300px;}
+100%{left: 260px;}
 }
 @keyframes word{
 0%{left:0px}
@@ -299,3 +299,4 @@ position: relative;
 
 
 }
+
