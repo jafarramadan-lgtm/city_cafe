@@ -33,23 +33,26 @@ body{
     z-index: 2;
     position: relative; 
 }
+
 .information{
     transition-duration: 1s;
      height: 0;
      width: 0;
-     
      border-radius: 50%;
     border-radius: 10px;
     background-color: rgb(255, 64, 0);
     position: relative;
-    bottom: 330px;
-    z-index: 5;
+    bottom: 400px;
+         right: 100px;
+
         transition: width 0.5s ease-in-out ;
     
 }
 .image{
   position: relative;
   bottom: 20px;
+           right: 100px;
+
 
 }
 .word{
@@ -95,7 +98,6 @@ border-radius: 50px 50px 50px 50px;
 .content:hover .information{
   width: 400px;
   height: 400px;
-   background-color: red;
    top: 100px;
 }
 
@@ -106,10 +108,23 @@ border-radius: 50px 50px 50px 50px;
    animation-fill-mode: forwards;
 }
 
+.content:hover p{
+   position: absolute;
+   z-index: 3;
+   top: 100px;
+}
+.content:hover a{
+   position: absolute;
+   z-index: 3;
+   top: 220px;
+}
+.content:hover h2{
+   position: absolute;
+   z-index: 3;
+}
 .information:hover .word{
   animation-name: word;
    animation-fill-mode: forwards;
-
    animation-duration: 2s;
 position: relative;
   width: 200px;
